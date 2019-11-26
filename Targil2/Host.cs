@@ -46,7 +46,7 @@ namespace Targil2
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return hostingUnits.GetEnumerator();
+            return this.GetEnumerator();
         }
 
         public HostingUnit this[int serialNb]
